@@ -26,7 +26,6 @@ public:
 
 	void insert_substring(int i, std::string & str) noexcept
 	{
-    		// Write your code here.
 		TrieNode * current_node = root_.get();
 		for (int j = 0; j <= i; j++)
 		{
@@ -51,7 +50,6 @@ public:
 	
 	bool contains(std::string str) const noexcept 
 	{
-    		// Write your code here.
 		TrieNode * current_node = root_.get();
 		for (char c : str)
 		{
